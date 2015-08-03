@@ -37,7 +37,7 @@ public class GridTerrain : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		//combinedGrass = Instantiate<GameObject>(grassContainer);
 		waterBlocksParent = new GameObject();
 		waterBlocksParent.name = "Water Blocks";
 		waterBlocksParent.transform.parent = gameObject.transform;
@@ -97,7 +97,7 @@ public class GridTerrain : MonoBehaviour {
 					for(int i = 0; i < grassDensity; i++){
 						//position for the new grass object. x and z give a random pos within the top face of the cube, y is elevated to the top of the cube and given a random deviation
 						Vector3 grassPos = new Vector3(blockPos.x + Random.value - 0.5f, blockPos.y + 0.15f, blockPos.z + Random.value - 0.5f);
-						GameObject newGrass = Instantiate(grassObject, grassPos, Quaternion.identity) as GameObject;
+						GameObject newGrass = Instantiate(assets.objects.grass[0], grassPos, Quaternion.identity) as GameObject;
 						newGrass.transform.Rotate(new Vector3(0, Random.value*360f, 0));
 						newGrass.transform.parent = combinedGrass.transform;
 						combinedGrass.transform.parent = blockInstance.transform;
