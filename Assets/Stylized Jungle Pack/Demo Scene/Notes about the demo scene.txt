@@ -1,0 +1,4 @@
+First of all: Thanks for purchasing this pack.
+
+This demo scene is here to learn how to use the pack.
+It's not optimized at all, that means that when you build your level you should combine the meshes that you paint. Bake lightmaps. Adjust the LOD quality if needed of the trees get it running smoothly.
