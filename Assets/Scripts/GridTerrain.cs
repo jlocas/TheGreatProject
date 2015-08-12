@@ -17,7 +17,7 @@ public class GridTerrain : MonoBehaviour {
 	public Heightmap heightmap;
 
 	[Space(20)]
-	[Range(1, 10)]
+	[Range(0, 20)]
 	public int grassDensity;
 	public GameObject combinedGrass;
 
