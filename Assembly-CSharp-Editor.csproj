@@ -67,6 +67,8 @@
      <Compile Include="Assets\Editor\ImageEffects\SunShaftsEditor.cs" />
      <Compile Include="Assets\Editor\ImageEffects\TonemappingEditor.cs" />
      <Compile Include="Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+     <Compile Include="Assets\Wasabimole\ProceduralTree\Editor\ProceduralTreeEditor.cs" />
+     <Compile Include="Assets\Wasabimole\ProceduralTree\Editor\UpdateNotifications.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Moba_Camera\Readme\readme.txt" />
@@ -147,6 +149,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\Advanced Foliage Shader v4\Shaders\Includes\AfsBillboardShadow.cginc" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Wasabimole\ProceduralTree\Readme.txt" />
      <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorBarkRendertex.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
      <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsFoliageShader Deferred SingleSided v4.shader" />

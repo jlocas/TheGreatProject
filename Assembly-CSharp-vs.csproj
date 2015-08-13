@@ -82,6 +82,7 @@
      <Compile Include="Assets\Scripts\DayNightCycle.cs" />
      <Compile Include="Assets\Scripts\GridTerrain.cs" />
      <Compile Include="Assets\Scripts\Heightmap.cs" />
+     <Compile Include="Assets\Scripts\JTree.cs" />
      <Compile Include="Assets\Scripts\TerrainAssets.cs" />
      <Compile Include="Assets\Scripts\TerrainMaterials.cs" />
      <Compile Include="Assets\Scripts\TerrainObjects.cs" />
@@ -90,6 +91,7 @@
      <Compile Include="Assets\Scripts\WorldGenerator.cs" />
      <Compile Include="Assets\Scripts\WorldRenderer.cs" />
      <Compile Include="Assets\Sun.cs" />
+     <Compile Include="Assets\Wasabimole\ProceduralTree\ProceduralTree.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Moba_Camera\Readme\readme.txt" />
@@ -170,6 +172,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\Advanced Foliage Shader v4\Shaders\Includes\AfsBillboardShadow.cginc" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Wasabimole\ProceduralTree\Readme.txt" />
      <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorBarkRendertex.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
      <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsFoliageShader Deferred SingleSided v4.shader" />
