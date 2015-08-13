@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Sun.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="C:\Users\Alexandre\Desktop\PROJET_2015 - Copy (2)\Assets\Scripts\Map.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DayNightCycle.cs" Line="1" Column="1" />
-      <File FileName="Assets\Sun.cs" Line="15" Column="18" />
+      <File FileName="Assets\Scripts\WorldRenderer.cs" Line="44" Column="2" />
+      <File FileName="Assets\Scripts\WorldGenerator.cs" Line="66" Column="5" />
+      <File FileName="C:\Users\Alexandre\Desktop\PROJET_2015 - Copy (2)\Assets\Scripts\Map.cs" Line="26" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
