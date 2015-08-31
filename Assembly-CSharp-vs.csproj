@@ -248,6 +248,7 @@
      <Compile Include="Assets\Scripts\TileMap.cs" />
      <Compile Include="Assets\Scripts\WorldGenerator.cs" />
      <Compile Include="Assets\Scripts\WorldRenderer.cs" />
+     <Compile Include="Assets\Scripts\rand.cs" />
      <Compile Include="Assets\Sun.cs" />
      <Compile Include="Assets\Wasabimole\ProceduralTree\ProceduralTree.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
