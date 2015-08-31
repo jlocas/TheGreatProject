@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class JTree : MonoBehaviour {
@@ -21,6 +21,7 @@ public class JTree : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Plant ();
+
 	
 	}
 	

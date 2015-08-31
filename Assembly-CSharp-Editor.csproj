@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>E:/Programs/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>E:/Programs/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -67,6 +67,43 @@
      <Compile Include="Assets\Editor\ImageEffects\SunShaftsEditor.cs" />
      <Compile Include="Assets\Editor\ImageEffects\TonemappingEditor.cs" />
      <Compile Include="Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\AimIKInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\BipedIKInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\BipedIKSolversInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\CCDIKInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\ConstraintsInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\FABRIKInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\FABRIKRootInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\FingerRigInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\FullBodyBipedIKInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\IKEffectorInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\IKExecutionOrderInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\IKInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\IKSolverAimInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\IKSolverFABRIKRootInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\IKSolverFullBodyBipedInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\IKSolverFullBodyInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\IKSolverHeuristicInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\IKSolverInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\IKSolverLimbInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\IKSolverLookAtInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\IKSolverTrigonometricInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\InteractionTargetInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\InteractionTriggerInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\LimbIKInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\LookAtIKInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\RotationLimitAngleInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\RotationLimitHingeInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\RotationLimitInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\RotationLimitPolygonalInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\RotationLimitSplineInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Editor\TrigonometricIKInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Aim IK\Scripts\Aim Poser\Editor\AimPoserInspector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Limb IK\Scripts\Limb IK Bend Goal\Editor\BendGoalInspector.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\Editor\BipedReferencesInspector.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\Editor\CommentsInspector.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\Editor\Inspector.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\Editor\SerializedContent.cs" />
      <Compile Include="Assets\Wasabimole\ProceduralTree\Editor\ProceduralTreeEditor.cs" />
      <Compile Include="Assets\Wasabimole\ProceduralTree\Editor\UpdateNotifications.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
@@ -201,43 +238,43 @@
      <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsFoliageShader Deferred v4.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
- <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Android.Extensions">
- <HintPath>D:/Unity/Editor/Data/PlaybackEngines/androidplayer/UnityEditor.Android.Extensions.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/PlaybackEngines/androidplayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions">
- <HintPath>D:/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.WP8.Extensions">
- <HintPath>D:/Unity/Editor/Data/PlaybackEngines/wp8support/UnityEditor.WP8.Extensions.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/PlaybackEngines/wp8support/UnityEditor.WP8.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Metro.Extensions">
- <HintPath>D:/Unity/Editor/Data/PlaybackEngines/metrosupport/UnityEditor.Metro.Extensions.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/PlaybackEngines/metrosupport/UnityEditor.Metro.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.BB10.Extensions">
- <HintPath>D:/Unity/Editor/Data/PlaybackEngines/blackberryplayer/UnityEditor.BB10.Extensions.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/PlaybackEngines/blackberryplayer/UnityEditor.BB10.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.WebGL.Extensions">
- <HintPath>D:/Unity/Editor/Data/PlaybackEngines/webglsupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/PlaybackEngines/webglsupport/UnityEditor.WebGL.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
- <HintPath>D:/Unity/Editor/Data/PlaybackEngines/linuxstandalonesupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/PlaybackEngines/linuxstandalonesupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
- <HintPath>D:/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
- <HintPath>D:/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>D:/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>E:/Programs/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
