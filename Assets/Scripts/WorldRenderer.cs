@@ -27,8 +27,6 @@ public class WorldRenderer : MonoBehaviour {
 
 		heightmapDrawer.Draw();
 
-		//Debug.Log(size);
-		//world = new WorldGenerator(nthPower, featureSizePower, heightScale);
 		size = world.GetWorldSize();
 
 
@@ -44,6 +42,12 @@ public class WorldRenderer : MonoBehaviour {
 			GenerateSmoothMesh();
 
 		}
+
+		for(int i = 0; i < worldMeshes.Length; i++)
+		{
+			worldMeshes[i].GetComponent<MeshRenderer>().material.mainTexture = heightmapDrawer.GetTexture();
+		}
+
 
 		//DrawWater();
 	
@@ -784,7 +788,6 @@ public class WorldRenderer : MonoBehaviour {
 			worldMeshes[i].GetComponent<MeshCollider>().sharedMesh = hardMesh[i];
 			worldMeshes[i].GetComponent<MeshRenderer>().material = material;
 
-			worldMeshes[i].GetComponent<MeshRenderer>().material.mainTexture = heightmapDrawer.GetTexture();
 		}
 
 

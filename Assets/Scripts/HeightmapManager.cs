@@ -32,26 +32,35 @@ public class HeightmapManager {
 
 		for(int i = 0 ; i < heightmapsParameters.Length ; i++){
 
-			switch(heightmapsParameters[i].GetType()){
+			switch(heightmapsParameters[i].GetType())
+			{
 			case HeightmapType.NONE:
-				heightmaps[i] = new Heightmap(size, heightmapsParameters[i].GetFeatureSizePower(), heightmapsParameters[i].GetHeightScale(), heightmapsParameters[i].GetHeightStep());
+				heightmapsParameters[i].SetHeightParams();
+				heightmaps[i] = new Heightmap(heightmapsParameters[i].GetHeightParams());
 				break;
 			case HeightmapType.PANGEA:
-				heightmaps[i] = new HM_Pangea(size, heightmapsParameters[i].GetFeatureSizePower(), heightmapsParameters[i].GetHeightScale(), heightmapsParameters[i].GetHeightStep());
+				heightmapsParameters[i].SetHeightParams();
+				heightmaps[i] = new HM_Pangea(heightmapsParameters[i].GetHeightParams());
 				break;
 			}
 		}
-		heightmap = heightmaps[0].GetHeightmap();
-		/*if(heightmapType == HeightmapType.PANGEA){
-			//featureSize = (int)Mathf.Pow(2.0f, (float)featureSizePower);
-			heightmap[0] = new HM_Pangea(world);
-			//heightmap = pangea.getElevationMap();
-			//heightmap = pangea.GetHeightmap();
-		}*/
+		heightmap = heightmaps[0].GetFloatMap();
 	}
 
 	private void CalculateHeightmap(){
 		float[] map = new float[size];
+	}
+
+
+	public float GetScalesSum(){
+
+		float scaleSum = 0f;
+
+		for(int i = 0; i < heightmaps.Length; i++){
+			scaleSum += heightmaps[i].GetHeightScale();
+		}
+
+		return scaleSum;
 	}
 
 	public float[] GetHeightmap(){

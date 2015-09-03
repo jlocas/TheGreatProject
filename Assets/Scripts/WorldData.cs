@@ -39,8 +39,4 @@ public class WorldData : MonoBehaviour  {
 	public float getElevation(int x, int z){
 		return heights[(x & (worldSize - 1)) + ((z & (worldSize - 1)) * worldSize)];
 	}
-
-	private void setElevation(int x, int z, float elev){
-		heights[(x & (worldSize - 1)) + ((z & (worldSize - 1)) * worldSize)] = elev;
-	}
 }

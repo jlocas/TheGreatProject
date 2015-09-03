@@ -11,18 +11,19 @@ public class HeightmapDrawer {
 	private float[] pixels;
 
 	//private Heightmap heightmap;
-	public WorldData world;
+	public WorldData worldData;
 	public WorldRenderer worldRenderer;
 
 	// Use this for initialization
 	public void Draw () {
-		//heightmap = world.heightmaps[0].GetHeightmap();
-		size = world.GetWorldSize();
+
+		size = worldData.GetWorldSize();
 		texture = new Texture2D(size,size, TextureFormat.RGB24, false);
 		worldRenderer.SetTexture(texture);
-		//GetComponent<Renderer>().material.mainTexture = texture;
 
-		pixels = world.GetHeightmap();
+		pixels = worldData.GetHeightmap();
+
+		float scales = worldData.GetHeightmapManager().GetScalesSum();
 
 		for(int x = 0; x < size; x++){
 			for(int y = 0; y < size; y++){
@@ -30,17 +31,16 @@ public class HeightmapDrawer {
 				Color col = new Color();
 
 				int i = (x & (size - 1)) + ((y & (size - 1)) * size);
+				float height = pixels[i] / scales;
 
-				if(pixels[i] >= 0){
-					col = Color.Lerp(landColor1, landColor2, pixels[i]);
-				} else if(pixels[i] < 0){
-					col = Color.Lerp(waterColor1, waterColor2, pixels[i] * -1f);
+				if(height >= 0){
+					col = Color.Lerp(landColor1, landColor2, height);
+				} else if(height < 0){
+					col = Color.Lerp(waterColor1, waterColor2, height * -1f);
 				} else {
 					Debug.Log("Heightmap Drawer: Pixel error plz investigate.");
 				}
-				//Color col = Color.Lerp(landColor1, landColor2, pixels[x,y]);
 				texture.SetPixel(x, y, col);
-				//Debug.Log(x + ", " + y + ", " + pixels[x,y]);
 			}
 		}
 		texture.Apply();
