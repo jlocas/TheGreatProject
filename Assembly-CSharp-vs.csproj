@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{67C0255E-5DD3-D9A5-9B70-3437EAE38567}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Advanced Foliage Shader v4\Demos\00 Shared Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Demos\03 Tree Demo\FadeInPixelLights.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts [free Addons]\Geometry Brush Package AFS v1.1\Geometry Brush\Scripts\GBSettings.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts [free Addons]\Geometry Brush Package AFS v1.1\Geometry Brush\Scripts\GBUtils.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts\Combine Cildren AFS v4\CombineChildrenAFS.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts\Combine Cildren AFS v4\DebugNormalsInEditmode.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts\Combine Cildren AFS v4\MeshCombineUtilityAFS.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts\Foliage Tool AFS v4\AfsFoliageTool.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts\GrassModelPostprocessor AFS\GrassMeshPostprocessor AFS.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts\Reposition Trees AFS v4\RepositionTreesAFS.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts\Setup Advanced Foliage Shader v4\SetupAdvancedFoliageShader.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts\TexturePostprocessor AFS\TexturePostprocessor AFS.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts\Touch Bending AFS v4\touchBendingCollisionGS.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts\Touch Bending AFS v4\touchBendingPlayerListener.cs" />
+     <Compile Include="Assets\Advanced Foliage Shader v4\Scripts\TreeXtrabending\TreeXtrabending.cs" />
+     <Compile Include="Assets\Mixamo\Magic Pack\Demo\CameraScroll.cs" />
+     <Compile Include="Assets\Moba_Camera\Scripts\Moba_Camera.cs" />
+     <Compile Include="Assets\Moba_Camera\Scripts\Moba_Camera_Boundaries.cs" />
+     <Compile Include="Assets\Moba_Camera\Scripts\Moba_Camera_Boundary.cs" />
+     <Compile Include="Assets\Moba_Camera\TestFiles\Scripts\DemoMovementLine.cs" />
+     <Compile Include="Assets\Moba_Camera\TestFiles\Scripts\DemoSwitchTarget.cs" />
+     <Compile Include="Assets\Moba_Camera\TestFiles\Scripts\DemoTarget.cs" />
+     <Compile Include="Assets\Moba_Camera\TestFiles\Scripts\DemoUI_Controls.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\BipedIK\BipedIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\BipedIK\BipedIKSolvers.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Constraints\Constraint.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Constraints\ConstraintPosition.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Constraints\ConstraintPositionOffset.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Constraints\ConstraintRotation.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Constraints\ConstraintRotationOffset.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Constraints\Constraints.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\DoxygenManualFinalIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Finger Rig\FingerRig.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Grounder\Grounder.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Grounder\GrounderBipedIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Grounder\GrounderFBBIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Grounder\GrounderIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Grounder\GrounderQuadruped.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Grounder\Grounding.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Grounder\GroundingLeg.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Grounder\GroundingPelvis.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Components\AimIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Components\CCDIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Components\FABRIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Components\FABRIKRoot.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Components\FullBodyBipedIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Components\IK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Components\IKExecutionOrder.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Components\LimbIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Components\LookAtIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Components\TrigonometricIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\FABRIKChain.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\FBBIKHeadEffector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\FBIKChain.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKConstraintBend.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKEffector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKMapping.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKMappingBone.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKMappingLimb.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKMappingSpine.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKSolver.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKSolverAim.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKSolverCCD.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKSolverFABRIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKSolverFABRIKRoot.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKSolverFullBody.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKSolverFullBodyBiped.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKSolverHeuristic.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKSolverLimb.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKSolverLookAt.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\IKSolverTrigonometric.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\IK Solvers\SolverManager.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\InteractionSystem\InteractionEffector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\InteractionSystem\InteractionLookAt.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\InteractionSystem\InteractionObject.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\InteractionSystem\InteractionSystem.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\InteractionSystem\InteractionTarget.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\InteractionSystem\InteractionTrigger.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Posers\GenericPoser.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Posers\HandPoser.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Posers\Poser.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Ragdoll Utility\RagdollUtility.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Rotation Limits\RotationLimit.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Rotation Limits\RotationLimitAngle.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Rotation Limits\RotationLimitHinge.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Rotation Limits\RotationLimitPolygonal.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\Rotation Limits\RotationLimitSpline.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Aim IK\Scripts\Aim Poser\AimPoser.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Aim IK\Scripts\AimBoxing.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Aim IK\Scripts\SimpleAimingSystem.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Aim IK\Scripts\TerrainOffset.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Biped IK\Scripts\BipedIKvsAnimatorIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\CCD IK\Scripts\MechSpider.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\CCD IK\Scripts\MechSpiderController.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\CCD IK\Scripts\MechSpiderLeg.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\CCD IK\Scripts\MechSpiderParticles.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\Amplifier.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\AnimationWarping.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\AnimatorController3rdPerson.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\AnimatorController3rdPersonIK.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\BodyTilt.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\CharacterController3rdPerson.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\EffectorOffset.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\ExplosionDemo.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\FBBIKSettings.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\FBIKBendGoal.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\FBIKBoxing.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\FBIKHandsOnProp.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\FPSAiming.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\FPSCharacter.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\HitReaction.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\HitReactionTrigger.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\HoldingHands.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\Inertia.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\InteractionC2CDemo.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\InteractionDemo.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\InteractionSystemTestGUI.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\KissingRig.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\MotionAbsorb.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\MotionAbsorbCharacter.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\OffsetEffector.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\OffsetModifier.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\OffsetPose.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\PendulumExample.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\PickUp2Handed.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\PickUpBox.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\PickUpSphere.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\RagdollUtilityDemo.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\Recoil.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\RecoilTest.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\ResetInteractionObject.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\ShoulderRotator.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\SoccerDemo.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\TouchWalls.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\TransferMotion.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\FBBIK\Scripts\UserControlInteractions.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Grounder\Scripts\GrounderDemo.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Grounder\Scripts\PlatformRotator.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Limb IK\Scripts\Limb IK Bend Goal\BendGoal.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Rotation Limits\Scripts\Turret.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Virtual Reality\Scripts\BulletHole.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Virtual Reality\Scripts\FixFeet.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Virtual Reality\Scripts\Mirror.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Virtual Reality\Scripts\OVRAimingController.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Virtual Reality\Scripts\OVRAnimatorController.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Virtual Reality\Scripts\OVRCharacterController.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Virtual Reality\Scripts\OVRInteractionController.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Virtual Reality\Scripts\OVRInteractionUI.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Virtual Reality\Scripts\OculusSetup.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Virtual Reality\Scripts\Phone.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Virtual Reality\Scripts\WeaponBase.cs" />
+     <Compile Include="Assets\RootMotion\FinalIK\_DEMOS\Virtual Reality\Scripts\WeaponRifle.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\BipedLimbOrientations.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\BipedNaming.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\BipedReferences.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\Comments.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\Hierarchy.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\Interp.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\QuaTools.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\TriggerEventBroadcaster.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\V3Tools.cs" />
+     <Compile Include="Assets\RootMotion\Scripts\Warning.cs" />
+     <Compile Include="Assets\RootMotion\Shared Demo Assets\Scripts\Camera Controllers\CameraController.cs" />
+     <Compile Include="Assets\RootMotion\Shared Demo Assets\Scripts\Camera Controllers\CameraControllerFPS.cs" />
+     <Compile Include="Assets\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterAnimationBase.cs" />
+     <Compile Include="Assets\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterAnimationSimple.cs" />
+     <Compile Include="Assets\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterAnimationThirdPerson.cs" />
+     <Compile Include="Assets\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterBase.cs" />
+     <Compile Include="Assets\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterThirdPerson.cs" />
+     <Compile Include="Assets\RootMotion\Shared Demo Assets\Scripts\Character Controllers\SimpleLocomotion.cs" />
+     <Compile Include="Assets\RootMotion\Shared Demo Assets\Scripts\Character Controllers\UserControlThirdPerson.cs" />
+     <Compile Include="Assets\RootMotion\Shared Demo Assets\Scripts\Misc\SlowMo.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\EventSystemChecker.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\ReturnToMainMenu.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+     <Compile Include="Assets\Scripts\Clock.cs" />
+     <Compile Include="Assets\Scripts\ColorPalette.cs" />
+     <Compile Include="Assets\Scripts\FractalTexture.cs" />
+     <Compile Include="Assets\Scripts\GridOverlay.cs" />
+     <Compile Include="Assets\Scripts\GridTerrain.cs" />
+     <Compile Include="Assets\Scripts\HM_Pangea.cs" />
+     <Compile Include="Assets\Scripts\HM_Perlin.cs" />
+     <Compile Include="Assets\Scripts\HSBColor.cs" />
+     <Compile Include="Assets\Scripts\Heightmap.cs" />
+     <Compile Include="Assets\Scripts\HeightmapDrawer.cs" />
+     <Compile Include="Assets\Scripts\HeightmapManager.cs" />
+     <Compile Include="Assets\Scripts\JTree.cs" />
+     <Compile Include="Assets\Scripts\MeshBuilder.cs" />
+     <Compile Include="Assets\Scripts\MeshBuilder_Tests.cs" />
+     <Compile Include="Assets\Scripts\SunControls.cs" />
+     <Compile Include="Assets\Scripts\TerrainAssets.cs" />
+     <Compile Include="Assets\Scripts\TerrainMaterials.cs" />
+     <Compile Include="Assets\Scripts\TerrainObjects.cs" />
+     <Compile Include="Assets\Scripts\Texturooney.cs" />
+     <Compile Include="Assets\Scripts\Tile.cs" />
+     <Compile Include="Assets\Scripts\TileMap.cs" />
+     <Compile Include="Assets\Scripts\WorldData.cs" />
+     <Compile Include="Assets\Scripts\WorldGenerator.cs" />
+     <Compile Include="Assets\Scripts\WorldRenderer.cs" />
+     <Compile Include="Assets\Scripts\rand.cs" />
+     <Compile Include="Assets\Sun.cs" />
+     <Compile Include="Assets\Wasabimole\ProceduralTree\ProceduralTree.cs" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Moba_Camera\Readme\readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsFoliageShader Touchbending v4.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\Includes\AfsPBSLighting.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Demos\00 Shared Assets\Original Meshes\Nobiax Free Rocks\Nobiax Free Rocks.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\Includes\AfsBuiltin3xTreeLibrary.cginc" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorBarkDeferred.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\Includes\AfsWavingGrass.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsFoliageShader Raindrops v4.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsSimpleTree v4.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorLeaves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorBarkDeferredOptimized.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\Hidden Shaders\AfsFoliageShader Terrain v4.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\Includes\AfsFoliageBending.cginc" />
+     <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\Includes\AfsLambertLighting.cginc" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Stylized Jungle Pack\Demo Scene\Notes about the demo scene.txt" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Resources\Camera-DepthNormalTexture.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\Hidden Shaders\AfsGrassShader Terrain v4.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\Includes\AfsBillboardShadow.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Wasabimole\ProceduralTree\Readme.txt" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsFoliageShader Deferred SingleSided v4.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\Hidden Shaders\AfsBillboardTree v4.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Demos\00 Shared Assets\Textures\Terrain Textures\Nobiax Sand Texture.txt" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\Includes\AfsBlinnPhongLightingFull.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\Includes\AfsBlinnPhongLighting.cginc" />
+     <None Include="Assets\Advanced Foliage Shader v4\Demos\00 Shared Assets\Fonts\ZwriteFont.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorBarkOptimized.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsFoliageShader v4.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsGrassShader v4.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorBark.shader" />
+     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Advanced Foliage Shader v4\Shaders\AfsFoliageShader Deferred v4.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>D:/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{1B4165B5-3DFA-F1CF-F1C1-CBCFEA05292A}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
