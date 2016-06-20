@@ -14,8 +14,6 @@ public class HM_Pangea : Heightmap {
 		ApplyScale();
 		ApplyHeightStep();
 
-
-
 		
 	}
 

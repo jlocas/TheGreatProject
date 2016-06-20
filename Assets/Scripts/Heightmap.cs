@@ -3,7 +3,8 @@ using System.Collections;
 
 public enum HeightmapType{
 	NONE,
-	PANGEA
+	PANGEA,
+	MOUNTAINS
 }
 
 public enum Form
@@ -56,6 +57,9 @@ public class Heightmap {
 
 	protected float[] floatMap;
 	protected HeightmapParams heightParams;
+
+	protected bool[] landMap;
+	protected bool[] coastMap;
 	
 	public Heightmap(HeightmapParams vars){
 		worldData = GameObject.Find("World").GetComponent<WorldData>();
@@ -74,7 +78,10 @@ public class Heightmap {
 		diamondSquared = vars.diamondSquared;
 		diamondRange = vars.diamondRange;
 		squareRange = vars.squareRange;
+
 	}
+
+
 
 	public void SetHeightParams(){
 		heightParams = new HeightmapParams();
@@ -269,4 +276,46 @@ public class Heightmap {
 		
 		SetHeight(x, y, sum);
 	}
+
+	protected void CalculateLandMap(){
+
+		int totsize = mapSize * mapSize;
+		landMap = new bool[totsize];
+		for(int i = 0; i < totsize; i++){
+			if (floatMap[i] < 0){
+				landMap[i] = false;
+			}
+			else{
+				landMap[i] = true;
+			}
+		}
+
+	}
+
+	protected bool[] GetLandMap(){
+
+		return landMap;
+	}
+	
+	protected void CalculateCoastMap(){
+
+		int totsize = mapSize * mapSize;
+		coastMap = new bool[totsize];
+
+		for(int i=0; i<totsize; i++){
+			if (landMap[i]){
+				if ( landMap[i-1] || landMap[i+1]
+				    || landMap[i+mapSize] || landMap[i-mapSize] ){
+					coastMap[i] = true;
+				}
+			}
+			else{
+				coastMap[i] = false;
+			}
+		}
+
+	}
+
+
+
 }

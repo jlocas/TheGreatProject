@@ -1,15 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HM_Perlin.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\HexGrid2016\HexGrid2016\Assets\Scripts\HexGridManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\Heightmap.cs" Line="71" Column="42" />
-      <File FileName="Assets\Scripts\HM_Pangea.cs" Line="15" Column="21" />
-      <File FileName="Assets\Scripts\WorldRenderer.cs" Line="319" Column="54" />
-      <File FileName="Assets\Scripts\HeightmapManager.cs" Line="41" Column="30" />
-      <File FileName="Assets\Scripts\WorldData.cs" Line="7" Column="26" />
-      <File FileName="Assets\Scripts\MinMaxRangeAttribute.cs" Line="31" Column="32" />
-      <File FileName="Assets\Scripts\HeightmapDrawer.cs" Line="34" Column="39" />
-      <File FileName="Assets\Scripts\HM_Perlin.cs" Line="14" Column="3" />
+      <File FileName="..\..\HexGrid2016\HexGrid2016\Assets\Scripts\HexGridManager.cs" Line="15" Column="13" />
+      <File FileName="..\..\HexGrid2016\HexGrid2016\Assets\Scripts\HexMesh.cs" Line="61" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

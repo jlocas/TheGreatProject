@@ -243,7 +243,7 @@ public class GBUtils : MonoBehaviour {
 		string[] str = assetPath.Split( new char[]{'/'} );
 		if ( str[str.Length-1].EndsWith(".prefab") == true && Application.isEditor ) {
 			// inastantiate a prefab to keep link
-			newObject = PrefabUtility.InstantiatePrefab( Resources.LoadAssetAtPath(assetPath, typeof(GameObject)) ) as GameObject;
+			newObject = PrefabUtility.InstantiatePrefab( AssetDatabase.LoadAssetAtPath(assetPath, typeof(GameObject)) ) as GameObject;
 		}
 		else {
 			newObject = (GameObject)Instantiate(obj);

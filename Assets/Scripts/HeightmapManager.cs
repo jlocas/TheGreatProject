@@ -42,9 +42,16 @@ public class HeightmapManager {
 				heightmapsParameters[i].SetHeightParams();
 				heightmaps[i] = new HM_Pangea(heightmapsParameters[i].GetHeightParams());
 				break;
+			case HeightmapType.MOUNTAINS:
+				heightmapsParameters[i].SetHeightParams();
+				heightmaps[i] = new HM_Mountains(heightmapsParameters[i].GetHeightParams(), heightmaps[0]);
+				break;
 			}
 		}
 		heightmap = heightmaps[0].GetFloatMap();
+
+		//heightmap = SumHeighMaps(heightmaps[0], heightmaps[1]);
+
 	}
 
 	private void CalculateHeightmap(){
@@ -66,4 +73,19 @@ public class HeightmapManager {
 	public float[] GetHeightmap(){
 		return heightmap;
 	}
+
+	private float[] SumHeighMaps(Heightmap h1, Heightmap h2){
+
+		int length = h1.GetFloatMap().Length;
+		float[] hm = new float[length];
+		float[] h1f = h1.GetFloatMap();
+		float[] h2f = h2.GetFloatMap();
+
+		for (int i = 0; i < length; i++){
+			hm[i] = h1f[i] + h2f[i];
+		}
+
+		return hm;
+	}
+
 }
